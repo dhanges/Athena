@@ -1,0 +1,15 @@
+venv_rr/
+__pycache__/
+.env
+*.py[cod]
+*$py.class
+
+
+# Project Specifics
+*.csv
+*.xlsx
+*.bib
+*.log
+
+# OS specifics
+.DS_Store

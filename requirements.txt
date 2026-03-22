@@ -1,0 +1,17 @@
+# Core LLM & Orchestration
+langchain-openai
+langgraph
+langchain-community
+
+# Search & Tools
+tavily-python
+arxiv
+pygithub
+
+# Data Handling
+pandas
+openpyxl
+python-dotenv
+
+# UI (Optional but recommended for the 5hr mark)
+gradio
