@@ -49,7 +49,7 @@ Then provides a gap analysis + unexplored questions
         ↓
 [Chat Node] ←→ [Planner] (cyclic until END)
 ask questions about any retrieved paper. Set a display mode for table and citations.
-
+```
 ## Tech Stack
 - LangGraph — multi-agent orchestration with parallel search
 - Semantic Scholar API — academic paper retrieval
@@ -58,6 +58,7 @@ ask questions about any retrieved paper. Set a display mode for table and citati
 - Python
 
 ## Getting Started
+```
 git clone https://github.com/dhanges/Athena
 cd athena
 python -m venv venv
@@ -65,7 +66,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 add your API keys to .env
 python run.py
-
+```
 ## What Makes Athena Different
 Most research tools retrieve. Athena makes suggestion, plans, maintains your searches so you can simply copy paste BibTex.
 
@@ -75,12 +76,12 @@ been done in academia and what's been built in open
 source is where novel research lives. Athena finds that gap.
 
 ## Future Work
-Add more sources for research.
-Gamify the research process with random areas and thought provoking ideation.
-Allow users select their resources. Semantic Scholar, ArXiv, Business articles/Case studies.
-Cross-session memory: remember what you've explored 
+
+- Add more sources for research.
+- Gamify the research process with random areas and thought provoking ideation.
+- Allow users select their resources. Semantic Scholar, ArXiv, Business articles/Case studies.
+- Cross-session memory: remember what you've explored 
 across research sessions
-Hypothesis scoring: rank novel project paths by 
+- Hypothesis scoring: rank novel project paths by 
 feasibility and novelty. Right now its just a confidence score
-Export to structured literature review document
-Integration with Zotero / reference managers
+- Export to structured literature review document
